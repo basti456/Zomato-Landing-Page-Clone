@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: space-between;
     height: 65px;
-    padding: 16px 15px;
+    padding: 16px 48px;
 }
 
 .navbar a{
@@ -28,7 +28,7 @@
 
 .navbar__menu__container{
     display: flex;
-    gap: 13px;
+    gap: 18px;
 }
 
 .navbar__menu__container .user__icon{
@@ -42,6 +42,50 @@
     display: none;
 }
 
+.hero__section__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 320px;
+}
+.hero__section__title{
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.hero__section__logo{
+    width: 200px;
+    height: 40px;
+}
+.hero__section__input__container{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.input__container__location{
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.input__container__search{
+    width: 65%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
 @media only screen and (max-width:600px) {
 
     .navbar__menu__container .user__icon{
@@ -49,5 +93,8 @@
     }
     .link{
         display: none;
+    }
+    .hero__section{
+        min-height: 80vh;
     }
 }
