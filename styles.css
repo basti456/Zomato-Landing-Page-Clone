@@ -130,6 +130,25 @@
 .we__offer__content p {
     font-size: 14px;
 }
+
+.collections h1{
+    font-weight: 600;
+}
+
+.collections .sub__heading__container{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sub__heading__container span:nth-child(2){
+    color: #ff7e8b;
+    font-size: 13px;
+    cursor: pointer;
+}
 @media only screen and (max-width:600px) {
 
     .navbar__menu__container .user__icon{
