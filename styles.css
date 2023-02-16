@@ -180,7 +180,19 @@
 .card4 {
     background-image: url('./images/collection4.jpg');
 }
-
+.get__the__app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,251,247);
+    width: 100%;
+    padding: 3rem 6rem;
+}
+.get__the__app .semiContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
 .overlay{
     width: 100%;
     height: 100%;
