@@ -341,3 +341,23 @@
         width: 95%;
     }
 }
+
+@media only screen and (max-width:1300px){
+    .get__the__app .semiContainer .left,
+    .get__the__app .semiContainer .right{
+        flex: 1;
+    }
+    .get__the__app .semiContainer{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:900px) {
+    /*flex 1 for 50%*/
+    .get__the__app{
+        padding: 2rem 0;
+    }
+    .get__the__app .semiContainer{
+        width: 95%;
+        flex-direction: column;
+    }
+}
